@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.app-body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-container {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  padding-left: 20px;
+  position: relative;
+  background-color: aliceblue;
+  vertical-align: middle;
+  box-shadow:  20px 15px 20px #aaaaaa;
+}
+
+.question-navigation-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+}
+
+.question {
+  margin-top:20px;
+  font-size: 15px; 
+  height: 70%;
+  overflow-y: auto;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.answer-option-container {
+    margin-top: 40px;
+}
+
+.answer-option{
+  font-size: 12px;
+}
+
+.navigation-button {
+  font-size:30px;
+  margin-right: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.navigation-button.disabled {
+  color:#bcbcbc;
+}
+
+.bread-crumb-container {
+  margin-top: 20px;
+}
+
+.bread-crumb {
+  font-size: 20px;
+  padding-right: 30px;
+  vertical-align:middle;
+}
+
+.bread-crumb-end-result {
+  font-size: 25px;
+}
+
+.bread-crumb-end-result.answered {
+  font-size: 30px;
+  color: #26521d;
+}
+
+.bread-crumb.current {
+  color:black;
+  font-size: 30px;
+}
+
+.bread-crumb.waiting {
+  color: #bcbcbc;
+  font-size: 15px;
+}
+
+.bread-crumb.answered {
+  color: #26521d;
+  font-size: 15px;
+}
+
+.multi-choice-container {
+  display:table;
+}
+
+.multi-choice-item {
+  display: row;
+  height: 30px;
+}
+
+.tl-radio {
+  width:20px;
+  height:20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.result-container {
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.dw-100 {
+  width: 100px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.result {
+  display: table-row;
+}
+
+.result-cell {
+  display: table-cell;
+}
+
+.score {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+.result-line {
+  width: 70%;
+  margin: auto;
+  border: 1px solid #999999;
+}
